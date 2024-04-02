@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+    <title>Petar Nikolic - Portfolio</title>
+  </head>
+  <body>
+    <!-- Container START ======================================================== -->
+    <div class="container-fluid">
+      <div class="hero100vh">
+        <!-- Navbar START ======================================================= -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/img/log.jpeg" alt="En bild på Petar Nikolic" width="70" height="60" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about-me">Om mig</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#knowledge">Kunskap</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#references">Referenser</a>
+                </li><li class="nav-item">
+                  <a class="nav-link" href="#contact">Kontakta mig</a>
+                </li>
+              </ul>
+              <button id="themeToggle" class="btn btn-sm" style="margin-left: auto;">Dark Mode</button>
+            </div>
+          </div>
+        </nav>
+        
+        <!-- Navbar END ======================================================== -->
+
+        <!-- Hero START ======================================================== -->
+        <section class="hero" >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="hero-content">
+                  <h1>Petar Nikolic <img src="img/ver.png" alt="Verified" class="verified-img"></h1>
+                  <p class="lead">Snabblärd, Driven, Innovativ.</p>
+                  <h3>Student • AI Utvecklare • Klar 2025</h3>
+                  <h4>@JensenYrkeshögskola</h4>
+                  <img src="img/hp.png" class="img-fluid my-3" alt="Petar Nikolic" style="max-width: 200px; border-radius: 50%; border: 4px solid white; margin-top: 20px;">
+                  <div class="hero-buttons mt-4">
+                    <a href="Profile.pdf" class="btn btn-dark btn-lg px-4 me-2" download>Ladda ner CV</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg px-4">Kontakta mig</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+      <!-- Hero END ========================================================== -->
+
+      <!-- About Me START -->
+      <section id="about-me" class="about-me-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img src="img/master.webp" alt="Konstnärlig Robot" class="img-fluid rounded-image">
+            </div>
+            <div class="col-lg-6">
+              <h2>Om Mig</h2>
+              <p>Välkommen till korsningen där konst möter artificiell intelligens. Jag är en utforskare vid gränserna av kreativitet och kod – där varje rad jag skriver är en penseldrag på den digitala duken. Mitt namn är [Ditt Namn], en visionär AI-utvecklare och konstnär som drömmer om att omforma vår värld genom innovation.</p>
+              <p>Framför dig ser du inte bara en bild, utan ett manifest av min resa. Denna konstnärliga robot, skapad av koder och drömmar, representerar fusionen av mina två passioner: den obevekliga precisionen av teknik och den gränslösa friheten i konst. Den är ett bevis på att linjerna mellan skapare och skapelse kan suddas ut, och att AI kan bli mer än bara ett verktyg; det kan bli en partner i konstnärligt uttryck.</p>
+              <p>Mina projekt strävar efter att utmana vad vi tror är möjligt, från AI-driven bildgenerering till robotar som kan måla, skulptera och komponera musik. Genom att bryta ner barriärerna mellan det tekniska och det estetiska vill jag öppna dörrar till nya världar där teknologi berikar den mänskliga erfarenheten på djupet och meningsfulla sätt.</p>
+              <p>Låt oss tillsammans utforska dessa nya horisonter. Välkommen till framtiden, där konst och AI dansar i harmoni.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+<!-- About Me END -->
+
+      <!-- Knowledge START ===================================================== -->
+      <section class="py-5" id="knowledge">
+        <div class="container">
+          <h2 class="text-center mb-4">Min Kunskap</h2>
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/pt3.webp" class="card-img-top" alt="Python och bibliotek">
+                <div class="card-body">
+                  <h5 class="card-title">Python & Bibliotek</h5>
+                  <p class="card-text">Som datavetenskapsstudent med initial erfarenhet i Python, har jag börjat utforska bibliotek som Pandas, NumPy, PyTorch och Flask. Dessa studier har lagt grunden för min förståelse inom dataanalys, maskininlärning och webbutveckling, och väckt en nyfikenhet för att vidareutveckla mina färdigheter.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/html.webp" class="card-img-top" alt="Frontend-teknologier">
+                <div class="card-body">
+                  <h5 class="card-title">Frontend-teknologier</h5>
+                  <p class="card-text">Jag har solida kunskaper i HTML, CSS och JavaScript, samt erfarenhet av att använda ramverk som React för att skapa responsiva och användarvänliga webbapplikationer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="img/sql.webp" class="card-img-top" alt="SQL Databaser">
+                <div class="card-body">
+                  <h5 class="card-title">SQL Databaser</h5>
+                  <p class="card-text">Min expertis inom databashantering sträcker sig från djupgående kunskaper i SQL till praktisk erfarenhet med verktyg som DB Browser for SQLite och SQLite3. Jag specialiserar mig på att konstruera välorganiserade databaser, effektivt utforma och genomföra komplexa frågor samt skickligt hantera och optimera data för maximal prestanda.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Knowledge END ======================================================= -->
+
+<!-- Portfolio START -->
+<section id="portfolio" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: white;">Mitt Portfolio</h2>
+    <div class="portfolio-grid">
+      
+      <!-- Projekt 1: -->
+      <div class="portfolio-item">
+        <img src="img/knnn.webp" class="portfolio-image" alt="Bildigenkänning med K-NN">
+        <div class="portfolio-overlay">
+          <div class="portfolio-text">
+            <h5>Bildigenkänning med K-NN Algoritmen</h5>
+            <p>Effektiv lösning för bildigenkänning genom K-närmaste granne algoritmen.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Projekt 2:-->
+      <div class="portfolio-item">
+        <img src="img/sot.webp" class="portfolio-image" alt="Användarupplevelse Förbättring">
+        <div class="portfolio-overlay">
+          <div class="portfolio-text">
+            <h5>Användarupplevelse Förbättring för SOT.nu</h5>
+            <p>Förbättrad användarupplevelse för SOT.nu.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Projekt 3:  -->
+      <div class="portfolio-item">
+        <img src="img/oc.webp" class="portfolio-image" alt="AI Driven Webbapplikation">
+        <div class="portfolio-overlay">
+          <div class="portfolio-text">
+            <h5>AI-Driven Webbapplikation för OptimalCars.se</h5>
+            <p>Implementering av AI-teknik på OptimalCars.se.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- Portfolio END -->
+
+<!-- References START ==================================================== -->
+<section id="references" class="py-5 bg-dark">
+  <div class="container">
+    <h2 class="text-center m-4" style="color: white;">Referenser</h2>
+    <div class="references-list">
+      <!-- Referens 1 -->
+      <div class="reference-item mb-3">
+        <img src="img/anna.png" alt="Referens 1" class="reference-image">
+        <div class="reference-text">
+          <h5>Anna Svensson</h5>
+          <h6>Projektledare, Teknikföretaget AB</h6>
+          <p>"Petar har en enastående förmåga att snabbt lösa komplexa problem med innovativa lösningar. Hans bidrag till projektet överträffade våra förväntningar."</p>
+        </div>
+      </div>
+      
+      <!-- Referens 2 -->
+      <div class="reference-item mb-3">
+        <img src="img/johan.png" alt="Referens 2" class="reference-image">
+        <div class="reference-text">
+          <h5>Johan Larsson</h5>
+          <h6>Senior Utvecklare, IT-Lösningar AB</h6>
+          <p>"Arbete med Petar var en fröjd. Hans tekniska skicklighet, kombinerat med hans förmåga att kommunicera klart och koncist, gjorde honom ovärderlig för vårt team."</p>
+        </div>
+      </div>
+      
+      <!-- Referens 3 -->
+      <div class="reference-item mb-3">
+        <img src="img/maria.png" alt="Referens 3" class="reference-image">
+        <div class="reference-text">
+          <h5>Maria Andersson</h5>
+          <h6>VD, Startup Innovations</h6>
+          <p>"Petars kreativitet och passion för AI har varit en drivkraft i vårt arbete med att utforska nya marknader. Han är en sann tillgång för varje team."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Contact START ======================================================= -->
+      <section id="contact" class="my-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Kontakt</h2>
+          <form>
+            <div class="mb-3">
+              <label for="nameInput" class="form-label">Namn</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Ditt namn">
+            </div>
+            <div class="mb-3">
+              <label for="emailInput" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="Din email">
+            </div>
+            <div class="mb-3">
+              <label for="messageTextarea" class="form-label">Meddelande</label>
+              <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Skicka Meddelande</button>
+          </form>
+        </div>
+      </section>
+      
+      <!-- Contact END ========================================================= -->
+
+      <!-- Footer START ======================================================== -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span>Följ mig på sociala medier:</span>
+            <a href="https://se.linkedin.com/in/petarnikolic" class="text-dark">
+              <img src="img/LinkedIn.svg" alt="LinkedIn" width="24" height="24"> 
+            </a>
+            <a href="https://www.instagram.com" class="text-dark">
+              <img src="img/instagram.png" alt="Instagram" width="24" height="24">
+            </a>
+            <a href="https://www.facebook.com" class="text-dark">
+              <img src="img/facebook.png" alt="Facebook" width="24" height="24">
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Petar Nikolic
+                </h6>
+                <p>
+                  Jag är en AI-utvecklare med en passion för att skapa innovativa lösningar som gör skillnad. </p>               </p>
+              </div>
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Titta igen! 
+                </h6>
+                <p>
+                  <a href="#about-me">Om mig</a>
+                </p>
+                <p>
+                  <a href="#knowledge" >Kunskap</a>
+                </p>
+                <p>
+                  <a href="#portfolio">Portfolio</a>
+                </p>
+                <p>
+                  <a href="#references">Referenser</a>
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                Väder just nu!
+                </h6>
+                <p>
+                  <div>I Stockholm</div><div id="weather" class="weather">..just nu.</div>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Kontakt</h6>
+                <p><i class="fas fa-home me-3"></i> Stockholm,  153 92</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  petar-nikolic@outlook.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 46 73 394 32 33</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          &copy; 2024 Petar Nikolic
+      
+      <!-- Footer END ========================================================== -->
+    </div>
+    <!-- Container END ========================================================= -->
+    <script src="/script.js"></script>
+  </body>
+</html>
